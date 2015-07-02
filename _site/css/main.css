@@ -1,0 +1,259 @@
+html, body {
+  font-family: 'Poiret One', cursive; }
+
+body {
+  position: relative;
+  width: 100%;
+  background-color: #EAE5E5; }
+  body .header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    border-bottom: 3px solid #4D4D4D; }
+    body .header #myname > a {
+      font-size: 4em;
+      text-decoration: none;
+      width: 100%;
+      padding-left: 40px;
+      font-weight: 600;
+      color: #FD685B; }
+    body .header #job > div > a {
+      font-size: 2.5em;
+      text-decoration: none;
+      padding-left: 15px;
+      color: #FD685B; }
+    body .header a {
+      padding-top: 40px;
+      padding-right: 1em;
+      padding-left: 1em;
+      font-size: 1.8em;
+      text-decoration: none;
+      color: #19B5FE; }
+  body .footer {
+    padding-top: 20px;
+    width: 100%;
+    height: 5em;
+    background-color: #19B5FE;
+    font-size: 1.5em; }
+    body .footer i {
+      font-size: 1em; }
+    body .footer .profile-links {
+      display: inline;
+      font-size: 0.5em; }
+    body .footer .front-icons {
+      padding-left: 100px;
+      padding-right: 0; }
+    body .footer .footer-contact {
+      padding-left: 30px;
+      font-weight: 500;
+      line-height: 1em; }
+    body .footer .footer-contact > p {
+      font-weight: 800; }
+
+h1.page-title {
+  font-size: 3.5em;
+  font-weight: 800;
+  color: #4D4D4D;
+  text-align: center; }
+
+#home .profilepic img {
+  margin: 80px 100px; }
+#home h1 {
+  padding-top: 40px;
+  color: #4D4D4D;
+  font-weight: 600;
+  font-size: 3.5em; }
+#home .about-me {
+  font-size: 1.9em;
+  font-weight: 700;
+  color: #4D4D4D; }
+#home .my-list {
+  border: none;
+  outline: none;
+  border-radius: 100%;
+  height: 120px;
+  width: 120px;
+  margin-right: 15px;
+  margin-left: 15px; }
+#home button.my-list.resume {
+  background-color: #FD685B;
+  font-size: 20px;
+  font-weight: 800;
+  /* border: 5px solid $tertiary-color; */ }
+#home button.my-list.work {
+  background-color: #19B5FE;
+  font-size: 20px;
+  font-weight: 800;
+  /* border: 5px solid $secondary-color; */ }
+#home button.my-list.skills {
+  background-color: #FD685B;
+  font-size: 20px;
+  font-weight: 800;
+  /* border: 5px solid $tertiary-color; */ }
+#home .lorem {
+  font-size: 1.2em;
+  color: #4D4D4D;
+  padding-top: 20px;
+  padding-bottom: 114px;
+  font-weight: 400; }
+
+#resume h1 {
+  font-size: 4em; }
+#resume .information {
+  border: none;
+  outline: none;
+  border-radius: 100%;
+  height: 120px;
+  width: 120px;
+  margin-right: 15px;
+  margin-left: 15px; }
+#resume button.information.professional {
+  background-color: #19B5FE;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+#resume .details > p {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 200px;
+  font-size: 1.2em; }
+#resume button.information.work-ex {
+  background-color: #FD685B;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+#resume button.information.education {
+  background-color: #19B5FE;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+
+#skills .progress {
+  background-color: white; }
+#skills .progress-bar {
+  background-color: #FD685B; }
+#skills .progress-mark {
+  padding-top: 2.2vh;
+  padding-bottom: 2vh; }
+
+#contact .layout {
+  border: none;
+  background-color: #FC9D9A;
+  padding: 8px;
+  width: 95%;
+  border-radius: 4px;
+  margin: 2vh 4vw;
+  box-sizing: border-box;
+  color: #4d4d4d;
+  font-weight: 800; }
+#contact .contact-me {
+  font-size: 2em;
+  padding: 6vh;
+  font-weight: 700;
+  text-align: center; }
+#contact .mail-me {
+  border-left: 2px solid #4d4d4d; }
+  #contact .mail-me .send {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 22vw;
+    margin-right: 22vw;
+    padding: 1vh 3vw;
+    border-radius: 4px;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: #19B5FE; }
+#contact .mail-me > h3 {
+  font-size: 1.8em;
+  font-weight: 600;
+  text-align: center; }
+#contact .address > h3 {
+  font-size: 1.8em;
+  font-weight: 600;
+  text-align: center; }
+#contact .address > h4 {
+  font-size: 1.5em;
+  font-weight: 800; }
+  #contact .address > h4 i {
+    padding-right: 4vh; }
+#contact .address > p {
+  font-size: 1.4em;
+  font-weight: 500;
+  padding-left: 6vh; }
+#contact .empty {
+  height: 10vh;
+  margin-top: 3vh; }
+
+#work .project-number {
+  border: none;
+  outline: none;
+  border-radius: 100%;
+  height: 16vh;
+  width: 16vh;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  margin-top: 1.5em;
+  margin-bottom: 2.5vh; }
+#work button.project-number.first-project {
+  background-color: #FD685B;
+  font-size: 2.6vh;
+  font-weight: 800; }
+#work button.project-number.second-project {
+  background-color: #19B5FE;
+  font-size: 2.6vh;
+  font-weight: 800; }
+#work button.project-number.third-project {
+  background-color: #FD685B;
+  font-size: 2.6vh;
+  font-weight: 800; }
+#work .title {
+  border-top: 1px solid #4d4d4d; }
+#work .project {
+  border-bottom: 1px solid #4d4d4d; }
+#work .empty {
+  height: 5vh; }
+#work .calculator img {
+  padding: 6vh;
+  transition: all 0.3s ease-in; }
+  #work .calculator img:hover {
+    transform: scale(1.1); }
+#work .psd img {
+  padding: 6vh 5vh; }
+#work .imagepuzzle {
+  padding: 6vh 5vh; }
+#work .project {
+  position: relative; }
+#work .project_onhover {
+  visibility: hidden;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  bottom: 40px;
+  right: 60px;
+  transform: scale(0);
+  transition: all 0.5s ease-in-out;
+  background-color: rgba(25, 181, 254, 0.7);
+  border-radius: 8px; }
+#work .project:hover .project_onhover {
+  visibility: visible;
+  display: block;
+  transform: scale(1);
+  top: 0px; }
+#work .project:hover img {
+  opacity: 0.2; }
+#work .hover-button {
+  border: none;
+  padding: 1vh;
+  width: 20%;
+  margin: 20vh 10vh;
+  border-radius: 4px;
+  background-color: rgba(253, 104, 91, 0.9);
+  color: #ffffff;
+  font-size: 2vh;
+  font-weight: 600; }

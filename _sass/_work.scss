@@ -41,4 +41,61 @@
   .empty {
     height: 5vh;
   }
+
+  .calculator img {
+    padding: 6vh;
+    transition: all 0.3s ease-in;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .psd img {
+    padding: 6vh 5vh;
+  }
+
+  .imagepuzzle {
+    padding: 6vh 5vh;
+  }
+  .project {
+    position: relative;
+ }
+
+ .project_onhover {
+    visibility: hidden;
+    position: absolute;
+    top: 40px;
+    left:30px;
+    bottom: 40px;
+    right: 60px;
+    transform: scale(0);
+    transition: all 0.5s ease-in-out;
+    background-color: rgba(25, 181, 254, 0.7);
+    border-radius: 8px;
+
+ }
+
+ .project:hover .project_onhover {
+    visibility: visible;
+    display: block;
+    transform: scale(1);
+    top:0px;
+ }
+
+ .project:hover img {
+   opacity: 0.2;
+ }
+
+ .hover-button {
+  border: none;
+  padding: 1vh;
+  width: 20%;
+  margin: 20vh 10vh;
+  border-radius: 4px;
+  background-color: rgba(253, 104, 91, 0.9);
+  color: #ffffff;
+  font-size: 2vh;
+  font-weight: 600;
+ }
 }
