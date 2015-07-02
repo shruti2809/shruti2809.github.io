@@ -1,0 +1,44 @@
+#work {
+
+  .project-number {
+    border: none;
+    outline:none;
+    border-radius: 100%;
+    height: 16vh;
+    width: 16vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    margin-top: 1.5em;
+    margin-bottom: 2.5vh;  
+  }
+
+  button.project-number.first-project {
+    background-color: $secondary-color;
+    font-size: 2.6vh;
+    font-weight: 800;
+  }
+
+  button.project-number.second-project {
+    background-color: $tertiary-color;
+    font-size: 2.6vh;
+    font-weight: 800;
+  }
+
+  button.project-number.third-project {
+    background-color: $secondary-color;
+    font-size: 2.6vh;
+    font-weight: 800;
+  }
+
+  .title {
+    border-top: 1px solid #4d4d4d;
+  }
+
+  .project {
+    border-bottom: 1px solid #4d4d4d;
+  }
+
+  .empty {
+    height: 5vh;
+  }
+}

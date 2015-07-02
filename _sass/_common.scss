@@ -1,0 +1,81 @@
+html, body {
+  font-family: 'Poiret One', cursive;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  background-color: $primary-color;
+  
+  .header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    border-bottom: 3px solid #4D4D4D;
+
+    #myname > a {
+      font-size: 4em;
+      text-decoration: none;
+      width: 100%;
+      padding-left: 40px;
+      font-weight: 600;
+      color: $secondary-color;
+    }
+
+    #job > div >  a {
+      font-size: 2.5em;
+      text-decoration: none;
+      padding-left: 15px;
+      color: $secondary-color;
+    }
+
+      a {
+        padding-top: 40px;
+        padding-right: 1em;
+        padding-left: 1em;
+        font-size: 1.8em;
+        text-decoration: none;
+        color: $tertiary-color;
+      }
+  }
+
+  .footer {
+    padding-top: 20px;
+    width: 100%;
+    height: 5em;
+    background-color: $tertiary-color;
+    font-size: 1.5em;
+
+    i {
+      font-size: 1em;
+    }
+
+    .profile-links {
+      display: inline;
+      font-size: 0.5em;
+    }
+
+    .front-icons {
+      padding-left: 100px;
+      padding-right: 0;
+    }
+
+    .footer-contact {
+      padding-left: 30px;
+      font-weight: 500;
+      line-height: 1em;
+    }
+
+    .footer-contact > p {
+      font-weight: 800;
+    }
+  }
+}
+
+h1.page-title {
+  font-size: 3.5em;
+  font-weight: 800;
+  color: #4D4D4D;
+  text-align: center;
+}
+

@@ -1,0 +1,71 @@
+#contact {
+
+  .layout{
+    border: none;
+    background-color: #FC9D9A;
+    padding: 8px;
+    width: 95%;
+    border-radius: 4px;
+    margin: 2vh 4vw;
+    box-sizing: border-box;
+    color: #4d4d4d;
+    font-weight: 800;
+  }
+
+  .contact-me {
+    font-size: 2em;
+    padding: 6vh;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .mail-me{
+    border-left: 2px solid #4d4d4d;
+
+    .send {
+      outline: none;
+      border: none;
+      text-decoration: none;
+      text-align: center;
+      margin-left: 22vw;
+      margin-right: 22vw;
+      padding: 1vh 3vw;
+      border-radius: 4px;
+      font-size: 1em;
+      font-weight: 500;
+      background-color: $tertiary-color;
+    }
+  }
+
+  .mail-me > h3 {
+    font-size: 1.8em;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .address > h3 {
+    font-size: 1.8em;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .address > h4 {
+    font-size: 1.5em;
+    font-weight: 800;
+
+    i {
+    padding-right: 4vh;
+    }
+  }
+
+  .address > p {
+    font-size: 1.4em;
+    font-weight: 500;
+    padding-left: 6vh;
+  }
+
+  .empty {
+    height: 10vh;
+    margin-top: 3vh;
+  }
+}

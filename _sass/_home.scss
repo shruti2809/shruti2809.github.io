@@ -1,0 +1,59 @@
+#home {
+
+  .profilepic img {
+    margin: 80px 100px;
+  }
+
+  h1 {
+    padding-top: 40px;
+    color: #4D4D4D;
+    font-weight: 600;
+    font-size: 3.5em;
+  }
+
+  .about-me {
+    font-size: 1.9em;
+    font-weight: 700;
+    color: #4D4D4D;
+  }
+
+  .my-list {
+    border: none;
+    outline:none;
+    border-radius: 100%;
+    height: 120px;
+    width: 120px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  button.my-list.resume {
+    background-color: $secondary-color;
+    font-size: 20px;
+    font-weight: 800;
+  /* border: 5px solid $tertiary-color; */
+  }
+
+  button.my-list.work {
+    background-color: $tertiary-color;
+    font-size: 20px;
+    font-weight: 800;
+  /* border: 5px solid $secondary-color; */
+  }
+
+  button.my-list.skills {
+    background-color: $secondary-color;
+    font-size: 20px;
+    font-weight: 800;
+  /* border: 5px solid $tertiary-color; */
+  }
+
+  .lorem {
+    font-size: 1.2em;
+    color: #4D4D4D;
+    padding-top: 20px;
+    padding-bottom: 114px;
+    font-weight: 400;
+  }
+
+}

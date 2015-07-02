@@ -1,0 +1,48 @@
+#resume {
+
+  h1 {
+    font-size: 4em;
+  }
+
+  .information {
+    border: none;
+    outline:none;
+    border-radius: 100%;
+    height: 120px;
+    width: 120px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  button.information.professional {
+    background-color: $tertiary-color;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .details > p {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 200px;
+    font-size: 1.2em;
+  }
+
+  button.information.work-ex {
+    background-color: $secondary-color;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  button.information.education {
+    background-color: $tertiary-color;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
