@@ -29,45 +29,45 @@ body {
       color: $secondary-color;
     }
 
-      a {
-        padding-top: 40px;
-        padding-right: 1em;
-        padding-left: 1em;
-        font-size: 1.8em;
-        text-decoration: none;
-        color: $tertiary-color;
-      }
+    a {
+      padding-top: 40px;
+      padding-right: 1em;
+      padding-left: 1em;
+      font-size: 1.8em;
+      text-decoration: none;
+      color: $tertiary-color;
+    }
   }
 
   .footer {
-    padding-top: 20px;
+    overflow: hidden;
     width: 100%;
-    height: 5em;
+    height: 15vh;
     background-color: $tertiary-color;
-    font-size: 1.5em;
+    font-size: 1.8vw;
+    text-align: center;
 
-    i {
-      font-size: 1em;
-    }
-
-    .profile-links {
-      display: inline;
-      font-size: 0.5em;
-    }
-
-    .front-icons {
-      padding-left: 100px;
-      padding-right: 0;
-    }
-
-    .footer-contact {
-      padding-left: 30px;
+    .ping {
       font-weight: 500;
-      line-height: 1em;
+      text-align: center;
     }
 
-    .footer-contact > p {
-      font-weight: 800;
+   /*  #links{
+     padding-left: 42vw;
+   } */
+
+    .social_links {
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      font-size: 1.2em;
+      padding-bottom: 2em;
+    }
+
+    #divider {
+      border-right: 1px solid #000000;
+      margin-right: 15px;
+      padding-right: 10px;
     }
   }
 }

@@ -30,25 +30,28 @@ body {
       text-decoration: none;
       color: #19B5FE; }
   body .footer {
-    padding-top: 20px;
+    overflow: hidden;
     width: 100%;
-    height: 5em;
+    height: 15vh;
     background-color: #19B5FE;
-    font-size: 1.5em; }
-    body .footer i {
-      font-size: 1em; }
-    body .footer .profile-links {
-      display: inline;
-      font-size: 0.5em; }
-    body .footer .front-icons {
-      padding-left: 100px;
-      padding-right: 0; }
-    body .footer .footer-contact {
-      padding-left: 30px;
+    font-size: 1.8vw;
+    text-align: center;
+    /*  #links{
+      padding-left: 42vw;
+    } */ }
+    body .footer .ping {
       font-weight: 500;
-      line-height: 1em; }
-    body .footer .footer-contact > p {
-      font-weight: 800; }
+      text-align: center; }
+    body .footer .social_links {
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      font-size: 1.2em;
+      padding-bottom: 2em; }
+    body .footer #divider {
+      border-right: 1px solid #000000;
+      margin-right: 15px;
+      padding-right: 10px; }
 
 h1.page-title {
   font-size: 3.5em;
@@ -140,55 +143,57 @@ h1.page-title {
   padding-top: 2.2vh;
   padding-bottom: 2vh; }
 
-#contact .layout {
-  border: none;
-  background-color: #FC9D9A;
-  padding: 8px;
-  width: 95%;
-  border-radius: 4px;
-  margin: 2vh 4vw;
-  box-sizing: border-box;
-  color: #4d4d4d;
-  font-weight: 800; }
-#contact .contact-me {
-  font-size: 2em;
-  padding: 6vh;
-  font-weight: 700;
-  text-align: center; }
-#contact .mail-me {
-  border-left: 2px solid #4d4d4d; }
-  #contact .mail-me .send {
-    outline: none;
+#contact {
+  overflow: hidden; }
+  #contact .layout {
     border: none;
-    text-decoration: none;
-    text-align: center;
-    margin-left: 22vw;
-    margin-right: 22vw;
-    padding: 1vh 3vw;
+    background-color: #FC9D9A;
+    padding: 8px;
+    width: 95%;
     border-radius: 4px;
-    font-size: 1em;
+    margin: 2vh 4vw;
+    box-sizing: border-box;
+    color: #4d4d4d;
+    font-weight: 800; }
+  #contact .contact-me {
+    font-size: 2em;
+    padding: 6vh;
+    font-weight: 700;
+    text-align: center; }
+  #contact .mail-me {
+    border-left: 2px solid #4d4d4d; }
+    #contact .mail-me .send {
+      outline: none;
+      border: none;
+      text-decoration: none;
+      text-align: center;
+      margin-left: 22vw;
+      margin-right: 22vw;
+      padding: 1vh 3vw;
+      border-radius: 4px;
+      font-size: 1em;
+      font-weight: 500;
+      background-color: #19B5FE; }
+  #contact .mail-me > h3 {
+    font-size: 1.8em;
+    font-weight: 600;
+    text-align: center; }
+  #contact .address > h3 {
+    font-size: 1.8em;
+    font-weight: 600;
+    text-align: center; }
+  #contact .address > h4 {
+    font-size: 1.5em;
+    font-weight: 800; }
+    #contact .address > h4 i {
+      padding-right: 4vh; }
+  #contact .address > p {
+    font-size: 1.4em;
     font-weight: 500;
-    background-color: #19B5FE; }
-#contact .mail-me > h3 {
-  font-size: 1.8em;
-  font-weight: 600;
-  text-align: center; }
-#contact .address > h3 {
-  font-size: 1.8em;
-  font-weight: 600;
-  text-align: center; }
-#contact .address > h4 {
-  font-size: 1.5em;
-  font-weight: 800; }
-  #contact .address > h4 i {
-    padding-right: 4vh; }
-#contact .address > p {
-  font-size: 1.4em;
-  font-weight: 500;
-  padding-left: 6vh; }
-#contact .empty {
-  height: 10vh;
-  margin-top: 3vh; }
+    padding-left: 6vh; }
+  #contact .empty {
+    height: 10vh;
+    margin-top: 3vh; }
 
 #work .project-number {
   border: none;
@@ -220,11 +225,13 @@ h1.page-title {
   height: 5vh; }
 #work .calculator img {
   padding: 6vh;
+  width: 100%;
   transition: all 0.3s ease-in; }
   #work .calculator img:hover {
     transform: scale(1.1); }
 #work .psd img {
-  padding: 6vh 5vh; }
+  padding: 6vh 5vh;
+  width: 100%; }
 #work .imagepuzzle {
   padding: 6vh 5vh; }
 #work .project {
@@ -243,10 +250,11 @@ h1.page-title {
 #work .project:hover .project_onhover {
   visibility: visible;
   display: block;
-  transform: scale(1);
+  transform: scale(0.8);
   top: 0px; }
 #work .project:hover img {
-  opacity: 0.2; }
+  opacity: 0;
+  width: 100%; }
 #work .hover-button {
   border: none;
   padding: 1vh;
